@@ -155,6 +155,3 @@ python run.py synthetic --help
 
 Additional documentation is available in [data and checkpoints](docs/DATA.md), [paper-to-code mapping](docs/PAPER_MAP.md), [validation](docs/VALIDATION.md), and [implementation notes](docs/CURATION.md).
 
-## Attribution and licensing
-
-Source attribution is recorded in `provenance/`, and retained third-party notices are provided in `licenses/`. This release does not assign a repository-wide license or a dataset license.
