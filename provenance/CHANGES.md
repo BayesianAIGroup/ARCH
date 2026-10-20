@@ -1,0 +1,13 @@
+# Release changes
+
+The source manifest records original paths/hashes and current release paths/hashes. Original trees remain unchanged. This English change record replaces the earlier curation patch, which embedded Chinese source comments and removed baseline code.
+
+Initial curation added release-relative data/checkpoint paths, a unified launcher, explicit runtime settings, isolated run outputs, checkpoint saving, and metric aggregation. Synthetic generated outputs were redirected away from bundled inputs. Model, loss, and preprocessing behavior was retained; see `docs/CURATION.md` for the paper audit.
+
+The October 5, 2026 cleanup removed Chinese comments, translated necessary docstrings and error messages, and replaced the Chinese audit with `docs/CURATION.md`. Real-data tasks now run ARCH only: comparison implementations, training/evaluation calls, comparison metrics, and their launcher settings were removed. The scikit-learn dependency was removed with the imputers. ARCH autoregressive training masks remain part of the model; only the separate forecast autoregressive comparison was removed.
+
+Synthetic comparison predictions and the code that reads them remain necessary for the existing intensity plots and L2 comparisons. All retained data, checkpoints, and historical result files remain byte-for-byte unchanged. Current validation records and checksums describe the cleaned release.
+
+The data cleanup removed `data/seahorse_original` after all nine split pairs were confirmed numerically identical to the corresponding files in `data/seahorse`. No experiment used the removed copies; the original source files were also verified to remain available outside this release. The STSCP midpoint comparison directory was renamed from `Neurips2026_Rebuttal` to `stscp_midpoint_baselines`, and the plotting module defaults were updated. All four files in that directory are required for the existing comparison plots. Source paths in the provenance manifest retain their original names; destination paths identify the current release layout. See `docs/validation/data_cleanup.json` for the file-level record.
+
+The environment audit corrected the initial dependency extraction, which had used the default Python environment instead of the author's `keyan_1`. `requirements.txt`, `environment.yml`, and the README now specify Python 3.10.20 and the ARCH dependencies actually installed in `keyan_1`, including PyTorch 2.7.1+cu126 and NumPy 2.2.6. Seven one-epoch CPU tasks, four synthetic input checks, and four checkpoint loads passed in that environment; no environment packages or model implementations were changed. See `docs/validation/keyan_1_environment.json` for installed versions and run results.

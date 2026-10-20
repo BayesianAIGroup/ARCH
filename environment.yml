@@ -1,0 +1,15 @@
+name: keyan_1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip=26.0.1
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.7.1+cu126
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - matplotlib==3.10.8
+      - torchdiffeq==0.2.5
+      - python-dateutil==2.9.0.post0
+      - joblib==1.5.3

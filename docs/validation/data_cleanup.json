@@ -1,0 +1,148 @@
+{
+  "seahorse_pairs": [
+    {
+      "retained": "data/seahorse/Citibike/data_train.pkl",
+      "removed": "data/seahorse_original/citibike_from_seahorse/data_train.pkl",
+      "sequences": 2440,
+      "events": 319031,
+      "numerically_equal": true,
+      "retained_sha256": "2e82e9bea4b13980a81b222fec44a356206deb71f6c1e8d257d3d7e369bfdd63",
+      "removed_sha256": "6ef6468fc934086d78d1eb87699613ee9fd2239357117a8eb403ffaeeae88a99",
+      "removed_bytes": 9901100,
+      "original_source": "transformer_events/Seahorse/citibike_from_seahorse/data_train.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/Citibike/data_val.pkl",
+      "removed": "data/seahorse_original/citibike_from_seahorse/data_val.pkl",
+      "sequences": 300,
+      "events": 46467,
+      "numerically_equal": true,
+      "retained_sha256": "2b2c72e7579f1fef5a355f4a8266971c9f07f187134e081dbdc1c831b268f8ca",
+      "removed_sha256": "85fe1e7eea364f0efcdec7d56fe1dafece8ffdadef55759cf6e9bc2e3e8babcd",
+      "removed_bytes": 1441882,
+      "original_source": "transformer_events/Seahorse/citibike_from_seahorse/data_val.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/Citibike/data_test.pkl",
+      "removed": "data/seahorse_original/citibike_from_seahorse/data_test.pkl",
+      "sequences": 320,
+      "events": 47276,
+      "numerically_equal": true,
+      "retained_sha256": "2d68bb95e4866da0f3dd0c2a765f0e3754d0c6c47d1036289589035d6253cfb4",
+      "removed_sha256": "978c252b8ac2c8ccfb97d454d2e0067b2fe4a78b447f582f4cf1adb49eaec1e9",
+      "removed_bytes": 1467050,
+      "original_source": "transformer_events/Seahorse/citibike_from_seahorse/data_test.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/COVID19/data_train.pkl",
+      "removed": "data/seahorse_original/covid_from_seahorse/data_train.pkl",
+      "sequences": 1450,
+      "events": 143433,
+      "numerically_equal": true,
+      "retained_sha256": "54532594b6a09225cebd0e39fa183903c1ddf084ea2b0c8aa47fb6e2eb59ec0c",
+      "removed_sha256": "201465a8d97fcaf9a1e6c44b4f873eef36bd0bf9fbad234d57900c141ed9020a",
+      "removed_bytes": 4452844,
+      "original_source": "transformer_events/Seahorse/covid_from_seahorse/data_train.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/COVID19/data_val.pkl",
+      "removed": "data/seahorse_original/covid_from_seahorse/data_val.pkl",
+      "sequences": 100,
+      "events": 4415,
+      "numerically_equal": true,
+      "retained_sha256": "300964f56cce5fa310245d0bd1f0f82997ee30f5baa517bc601b79d170c6afb1",
+      "removed_sha256": "6ad7461cbf5e4c8162f55b95ad276507b086b963bceb19c266d43bf910028d62",
+      "removed_bytes": 137299,
+      "original_source": "transformer_events/Seahorse/covid_from_seahorse/data_val.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/COVID19/data_test.pkl",
+      "removed": "data/seahorse_original/covid_from_seahorse/data_test.pkl",
+      "sequences": 100,
+      "events": 13694,
+      "numerically_equal": true,
+      "retained_sha256": "8544152d2ced4221d36180278a64d729cf184dd0498fd8a05c90b42d98e4e44b",
+      "removed_sha256": "823be8a2bc013723a3d957ef4b72d981a26e29b3167bee7aaaa6d2a365f406cb",
+      "removed_bytes": 424984,
+      "original_source": "transformer_events/Seahorse/covid_from_seahorse/data_test.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/earthquakes/data_train.pkl",
+      "removed": "data/seahorse_original/earthquakes_from_seahorse/data_train.pkl",
+      "sequences": 950,
+      "events": 72150,
+      "numerically_equal": true,
+      "retained_sha256": "7738894e512f60609c5bcacea49a06a31a80dd3573e95794875327ad9afcf2f8",
+      "removed_sha256": "6cb87c4d698b94e35b7145fc526c094fe04852e1e7e8647197310ae5c2301750",
+      "removed_bytes": 2240772,
+      "original_source": "transformer_events/Seahorse/earthquakes_from_seahorse/data_train.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/earthquakes/data_val.pkl",
+      "removed": "data/seahorse_original/earthquakes_from_seahorse/data_val.pkl",
+      "sequences": 50,
+      "events": 3722,
+      "numerically_equal": true,
+      "retained_sha256": "e38498f0b799f705c2639767e92e76b29fe60c3508e915e1e9655cc629573b60",
+      "removed_sha256": "38adddeea674a2e93807d9a7872ebc8e841a0efb97ded7edfa4c3cb673f85b5c",
+      "removed_bytes": 115607,
+      "original_source": "transformer_events/Seahorse/earthquakes_from_seahorse/data_val.pkl",
+      "original_source_verified": true
+    },
+    {
+      "retained": "data/seahorse/earthquakes/data_test.pkl",
+      "removed": "data/seahorse_original/earthquakes_from_seahorse/data_test.pkl",
+      "sequences": 50,
+      "events": 3968,
+      "numerically_equal": true,
+      "retained_sha256": "e186f09efd76f1d7ac6c2d04885818be131e2b63dba67fa3f05633a61a91786a",
+      "removed_sha256": "9b9a3bd6af1c741fc18754d140ce5383d0c597f0c4a7f9f18c886a5d533bb216",
+      "removed_bytes": 123233,
+      "original_source": "transformer_events/Seahorse/earthquakes_from_seahorse/data_test.pkl",
+      "original_source_verified": true
+    }
+  ],
+  "removed_files": 9,
+  "removed_bytes": 20304771,
+  "renamed_files": [
+    {
+      "previous": "data/synthetic/Neurips2026_Rebuttal/result/stscp_tmid_s900/NSTPP.pkl",
+      "current": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/NSTPP.pkl",
+      "sha256": "f56abd4ec6dd6a4d55a6fab6239ff4a88ef58b129404a2d5d6e747283f57aeef"
+    },
+    {
+      "previous": "data/synthetic/Neurips2026_Rebuttal/result/stscp_tmid_s900/AUTOSTPP.pkl",
+      "current": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/AUTOSTPP.pkl",
+      "sha256": "d0def1efaefc7bf5414d7951b58dda096d69faed943f088f5acb22e364832d75"
+    },
+    {
+      "previous": "data/synthetic/Neurips2026_Rebuttal/result/stscp_tmid_s900/DeepSTPP.pkl",
+      "current": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/DeepSTPP.pkl",
+      "sha256": "4b8cc253b487ecfb37d21fff540e4c4046a447db2abcb5795b96ff3727959591"
+    },
+    {
+      "previous": "data/synthetic/Neurips2026_Rebuttal/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+      "current": "data/synthetic/stscp_midpoint_baselines/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+      "sha256": "7d76e279189ec81ef526aaa00d235a91dca318c9f51ca13f81ed6261868ed09c"
+    }
+  ],
+  "renamed_midpoint_check": {
+    "passed": true,
+    "command": "python run.py synthetic --process self_correcting --action midpoints --check-data --device cpu",
+    "working_directory": "outside release root",
+    "sequence_index": 20,
+    "real_events": 53,
+    "midpoint_event_pairs": 43,
+    "spatial_grid": [
+      30,
+      30
+    ]
+  }
+}

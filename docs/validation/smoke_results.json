@@ -1,0 +1,152 @@
+{
+  "next_event": {
+    "seed": 42,
+    "result": [
+      0.8576768040657043,
+      10.052699089050293
+    ]
+  },
+  "forecast": {
+    "seed": 42,
+    "result": [
+      0.8126175403594971,
+      15.049829483032227
+    ]
+  },
+  "random_imputation": {
+    "seed": 42,
+    "result": [
+      0.8159151673316956,
+      12.201976776123047
+    ]
+  },
+  "trajectory_recovery": {
+    "seed": 42,
+    "result": {
+      "5": {
+        "model": [
+          0.8115813732147217,
+          16.093647003173828
+        ]
+      },
+      "10": {
+        "model": [
+          0.8598517179489136,
+          12.194476127624512
+        ]
+      }
+    }
+  },
+  "partial_attributes": {
+    "seed": 42,
+    "result": {
+      "0.05": {
+        "model": [
+          0.724278450012207,
+          4.574530124664307
+        ]
+      },
+      "0.1": {
+        "model": [
+          0.970022439956665,
+          12.062886238098145
+        ]
+      }
+    }
+  },
+  "inverse_inference": {
+    "seed": 42,
+    "result": {
+      "0": {
+        "model": [
+          1.2912249565124512,
+          6.811958312988281
+        ]
+      },
+      "1": {
+        "model": [
+          1.1450631618499756,
+          12.484442710876465
+        ]
+      },
+      "2": {
+        "model": [
+          1.2091723680496216,
+          9.57703971862793
+        ]
+      }
+    }
+  },
+  "likelihood": {
+    "seed": 42,
+    "result": [
+      1.5252307653427124,
+      49.6570930480957,
+      {
+        "dataset": "Earthquake",
+        "split": "test",
+        "sequences": 1,
+        "events": 43,
+        "includes_first_event": false,
+        "first_scored_event": "second real event",
+        "first_event_excluded_reason": "loader delta is a 1e-6 sentinel and token is not in AR loss",
+        "terminal_survival_included": false,
+        "averaging": "sum from the second event onward / total scored events",
+        "time_unit": "day",
+        "location_raw_unit": "longitude_degree x latitude_degree",
+        "time_scale_used_by_model": 1.0,
+        "time_transform": "log(1 + time_scale * delta_raw)",
+        "location_normalizer_scope": "unchanged utils.load_earthquake_st_ori behavior (all splits)",
+        "avg_loglik_time": -2.4733732217966122,
+        "avg_loglik_time_per_day": -2.4733732217966122,
+        "avg_loglik_location_normalized": -3.61857869458753,
+        "avg_loglik_joint_normalized": -6.091951916384142,
+        "location_jacobian_correction_to_raw": -6.49223683176208,
+        "avg_loglik_location_raw_lon_lat": -10.11081552634961,
+        "avg_loglik_joint_raw_lon_lat": -12.584188748146222,
+        "rtol": 0.0001,
+        "atol": 1e-05,
+        "checkpoint_selection": {
+          "criterion": "maximum validation avg_loglik_joint_normalized",
+          "epoch": 0,
+          "avg_loglik_time": -2.3655825297037762,
+          "avg_loglik_location_normalized": -3.7514527850680883,
+          "avg_loglik_joint_normalized": -6.117035314771865,
+          "validation_sequences_used": 1,
+          "validation_sequences_total": 1,
+          "evaluation_every_epochs": 25,
+          "event_batch_size": 64,
+          "rtol": 0.0005,
+          "atol": 5e-05
+        },
+        "avg_nll_joint_raw_lon_lat": 12.584188748146222
+      }
+    ]
+  },
+  "synthetic_input_checks": [
+    {
+      "process": "hawkes",
+      "action": "midpoints",
+      "check_data": true,
+      "passed": true
+    },
+    {
+      "process": "hawkes",
+      "action": "temporal",
+      "check_data": true,
+      "passed": true
+    },
+    {
+      "process": "self_correcting",
+      "action": "midpoints",
+      "check_data": true,
+      "passed": true
+    },
+    {
+      "process": "self_correcting",
+      "action": "temporal",
+      "check_data": true,
+      "passed": true
+    }
+  ]
+}

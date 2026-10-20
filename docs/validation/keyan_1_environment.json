@@ -1,0 +1,190 @@
+{
+  "python": "3.10.20",
+  "executable": "/home/mercury/anaconda3/envs/keyan_1/bin/python",
+  "versions": {
+    "torch": "2.7.1+cu126",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.8",
+    "torchdiffeq": "0.2.5",
+    "python-dateutil": "2.9.0.post0",
+    "joblib": "1.5.3"
+  },
+  "torch_cuda_build": "12.6",
+  "cuda_available": false,
+  "real": {
+    "next_event": {
+      "seed": 42,
+      "result": [
+        0.7645176649093628,
+        10.10586929321289
+      ]
+    },
+    "forecast": {
+      "seed": 42,
+      "result": [
+        0.7438526153564453,
+        10.188232421875
+      ]
+    },
+    "random_imputation": {
+      "seed": 42,
+      "result": [
+        0.7165300846099854,
+        12.323063850402832
+      ]
+    },
+    "trajectory_recovery": {
+      "seed": 42,
+      "result": {
+        "5": {
+          "model": [
+            0.8158597350120544,
+            12.045927047729492
+          ]
+        },
+        "10": {
+          "model": [
+            0.8741068243980408,
+            9.003232955932617
+          ]
+        }
+      }
+    },
+    "partial_attributes": {
+      "seed": 42,
+      "result": {
+        "0.05": {
+          "model": [
+            0.6950933337211609,
+            2.096543550491333
+          ]
+        },
+        "0.1": {
+          "model": [
+            0.9634746313095093,
+            9.140005111694336
+          ]
+        }
+      }
+    },
+    "inverse_inference": {
+      "seed": 42,
+      "result": {
+        "0": {
+          "model": [
+            1.2962725162506104,
+            1.8701783418655396
+          ]
+        },
+        "1": {
+          "model": [
+            1.1759235858917236,
+            7.131043910980225
+          ]
+        },
+        "2": {
+          "model": [
+            1.2263152599334717,
+            4.173018932342529
+          ]
+        }
+      }
+    },
+    "likelihood": {
+      "seed": 42,
+      "result": [
+        1.5205198526382446,
+        45.77351379394531,
+        {
+          "dataset": "Earthquake",
+          "split": "test",
+          "sequences": 1,
+          "events": 43,
+          "includes_first_event": false,
+          "first_scored_event": "second real event",
+          "first_event_excluded_reason": "loader delta is a 1e-6 sentinel and token is not in AR loss",
+          "terminal_survival_included": false,
+          "averaging": "sum from the second event onward / total scored events",
+          "time_unit": "day",
+          "location_raw_unit": "longitude_degree x latitude_degree",
+          "time_scale_used_by_model": 1.0,
+          "time_transform": "log(1 + time_scale * delta_raw)",
+          "location_normalizer_scope": "unchanged utils.load_earthquake_st_ori behavior (all splits)",
+          "avg_loglik_time": -2.451411238936491,
+          "avg_loglik_time_per_day": -2.451411238936491,
+          "avg_loglik_location_normalized": -3.141037325526393,
+          "avg_loglik_joint_normalized": -5.592448564462884,
+          "location_jacobian_correction_to_raw": -6.49223683176208,
+          "avg_loglik_location_raw_lon_lat": -9.633274157288472,
+          "avg_loglik_joint_raw_lon_lat": -12.084685396224963,
+          "rtol": 0.0001,
+          "atol": 1e-05,
+          "checkpoint_selection": {
+            "criterion": "maximum validation avg_loglik_joint_normalized",
+            "epoch": 0,
+            "avg_loglik_time": -2.344184239705404,
+            "avg_loglik_location_normalized": -3.241139199998644,
+            "avg_loglik_joint_normalized": -5.585323439704048,
+            "validation_sequences_used": 1,
+            "validation_sequences_total": 1,
+            "evaluation_every_epochs": 25,
+            "event_batch_size": 64,
+            "rtol": 0.0005,
+            "atol": 5e-05
+          },
+          "avg_nll_joint_raw_lon_lat": 12.084685396224963
+        }
+      ]
+    }
+  },
+  "synthetic_input_checks": [
+    {
+      "process": "hawkes",
+      "action": "midpoints",
+      "passed": true
+    },
+    {
+      "process": "hawkes",
+      "action": "temporal",
+      "passed": true
+    },
+    {
+      "process": "self_correcting",
+      "action": "midpoints",
+      "passed": true
+    },
+    {
+      "process": "self_correcting",
+      "action": "temporal",
+      "passed": true
+    }
+  ],
+  "synthetic_checkpoints": [
+    {
+      "process": "hawkes",
+      "checkpoints_loaded": 2,
+      "all_parameters_finite": true
+    },
+    {
+      "process": "self_correcting",
+      "checkpoints_loaded": 2,
+      "all_parameters_finite": true
+    }
+  ],
+  "pip_check": {
+    "passed": true,
+    "output": "No broken requirements found."
+  },
+  "test_settings": {
+    "device": "cpu",
+    "epochs": 1,
+    "dataset": "earthquakes",
+    "seed": 42,
+    "sequences_per_split": 1,
+    "cpu_threads": 1
+  },
+  "requirements_match_installed": true,
+  "fresh_install_tested": false,
+  "gpu_execution_tested": false
+}

@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "source_files_checked": 105,
+  "python_files_checked": 29,
+  "problems": [],
+  "datasets": [
+    {
+      "family": "prediction",
+      "dataset": "COVID19",
+      "split": "train",
+      "sequences": 1450,
+      "events": 143305,
+      "min_length": 5,
+      "max_length": 287,
+      "mean_length": 98.83103448275862,
+      "sha256": "ea604309401c59a867a6bb7e29a53356b0aa13ceb2e809593ae8a98270a572a4"
+    },
+    {
+      "family": "prediction",
+      "dataset": "COVID19",
+      "split": "val",
+      "sequences": 100,
+      "events": 4346,
+      "min_length": 16,
+      "max_length": 74,
+      "mean_length": 43.46,
+      "sha256": "17efa64e0d85d6eb201c0ab366d47505d849b678f959746e798afdcbe7ad9e12"
+    },
+    {
+      "family": "prediction",
+      "dataset": "COVID19",
+      "split": "test",
+      "sequences": 100,
+      "events": 13656,
+      "min_length": 24,
+      "max_length": 271,
+      "mean_length": 136.56,
+      "sha256": "54c6b88443a6684770eb8d9dd8901b756cf2f8aa1d7fc37d78b6f682223d0029"
+    },
+    {
+      "family": "prediction",
+      "dataset": "Citibike",
+      "split": "train",
+      "sequences": 2440,
+      "events": 319030,
+      "min_length": 14,
+      "max_length": 200,
+      "mean_length": 130.75,
+      "sha256": "3864ca8fc1bd2fcd5558bab7a76c6653c43a58355bf67e053e08569015c5bca7"
+    },
+    {
+      "family": "prediction",
+      "dataset": "Citibike",
+      "split": "val",
+      "sequences": 300,
+      "events": 46467,
+      "min_length": 84,
+      "max_length": 190,
+      "mean_length": 154.89,
+      "sha256": "c6ee9f90a0d4e39692fa2b707b653bf6cb7fdd87f0bed359240e4701e6a47b22"
+    },
+    {
+      "family": "prediction",
+      "dataset": "Citibike",
+      "split": "test",
+      "sequences": 320,
+      "events": 47276,
+      "min_length": 86,
+      "max_length": 204,
+      "mean_length": 147.7375,
+      "sha256": "d5d01a464f5f374cdb44c3296c052453b674080c3da1a3a804a936a6faed3833"
+    },
+    {
+      "family": "prediction",
+      "dataset": "earthquakes",
+      "split": "train",
+      "sequences": 950,
+      "events": 82657,
+      "min_length": 22,
+      "max_length": 345,
+      "mean_length": 87.00736842105263,
+      "sha256": "7f357eb8c02252b370fb670aad5e464e14ddfad8eec7bde75d72625d0c3166c5"
+    },
+    {
+      "family": "prediction",
+      "dataset": "earthquakes",
+      "split": "val",
+      "sequences": 50,
+      "events": 4130,
+      "min_length": 38,
+      "max_length": 194,
+      "mean_length": 82.6,
+      "sha256": "e053e0b746d8c34d1840ffbebf61160e88128e8827799c0899e4b97d2e72ac70"
+    },
+    {
+      "family": "prediction",
+      "dataset": "earthquakes",
+      "split": "test",
+      "sequences": 50,
+      "events": 5110,
+      "min_length": 34,
+      "max_length": 554,
+      "mean_length": 102.2,
+      "sha256": "b8726333a790ce2e5be6a93febf0a4f874dee9e9951eb58d4fac3ed8ff1c2b6e"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "COVID19",
+      "split": "train",
+      "sequences": 1450,
+      "events": 143433,
+      "min_length": 8,
+      "max_length": 289,
+      "mean_length": 98.91931034482758,
+      "sha256": "54532594b6a09225cebd0e39fa183903c1ddf084ea2b0c8aa47fb6e2eb59ec0c"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "COVID19",
+      "split": "val",
+      "sequences": 100,
+      "events": 4415,
+      "min_length": 16,
+      "max_length": 80,
+      "mean_length": 44.15,
+      "sha256": "300964f56cce5fa310245d0bd1f0f82997ee30f5baa517bc601b79d170c6afb1"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "COVID19",
+      "split": "test",
+      "sequences": 100,
+      "events": 13694,
+      "min_length": 27,
+      "max_length": 265,
+      "mean_length": 136.94,
+      "sha256": "8544152d2ced4221d36180278a64d729cf184dd0498fd8a05c90b42d98e4e44b"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "Citibike",
+      "split": "train",
+      "sequences": 2440,
+      "events": 319031,
+      "min_length": 14,
+      "max_length": 200,
+      "mean_length": 130.7504098360656,
+      "sha256": "2e82e9bea4b13980a81b222fec44a356206deb71f6c1e8d257d3d7e369bfdd63"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "Citibike",
+      "split": "val",
+      "sequences": 300,
+      "events": 46467,
+      "min_length": 84,
+      "max_length": 190,
+      "mean_length": 154.89,
+      "sha256": "2b2c72e7579f1fef5a355f4a8266971c9f07f187134e081dbdc1c831b268f8ca"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "Citibike",
+      "split": "test",
+      "sequences": 320,
+      "events": 47276,
+      "min_length": 86,
+      "max_length": 204,
+      "mean_length": 147.7375,
+      "sha256": "2d68bb95e4866da0f3dd0c2a765f0e3754d0c6c47d1036289589035d6253cfb4"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "earthquakes",
+      "split": "train",
+      "sequences": 950,
+      "events": 72150,
+      "min_length": 19,
+      "max_length": 339,
+      "mean_length": 75.94736842105263,
+      "sha256": "7738894e512f60609c5bcacea49a06a31a80dd3573e95794875327ad9afcf2f8"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "earthquakes",
+      "split": "val",
+      "sequences": 50,
+      "events": 3722,
+      "min_length": 30,
+      "max_length": 186,
+      "mean_length": 74.44,
+      "sha256": "e38498f0b799f705c2639767e92e76b29fe60c3508e915e1e9655cc629573b60"
+    },
+    {
+      "family": "seahorse",
+      "dataset": "earthquakes",
+      "split": "test",
+      "sequences": 50,
+      "events": 3968,
+      "min_length": 32,
+      "max_length": 545,
+      "mean_length": 79.36,
+      "sha256": "e186f09efd76f1d7ac6c2d04885818be131e2b63dba67fa3f05633a61a91786a"
+    }
+  ]
+}

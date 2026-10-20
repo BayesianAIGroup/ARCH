@@ -1,0 +1,842 @@
+[
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask.py",
+    "destination": "real_world/next_event.py",
+    "source_sha256": "79387327160498ca87257c8b640ee13a18780b773e5d86e4f9f8af2f66b3a919",
+    "release_sha256": "c5783a264402773326272e2569d52f41916ca39b5c9cbcb41492dc3e5fb9d2c8",
+    "bytes": 35716,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_multi_pred.py",
+    "destination": "real_world/forecast.py",
+    "source_sha256": "e8fff6c3b8985adfa388d9dda6edb077c13bb319945e2d6f27cb2e5d100e09b8",
+    "release_sha256": "3db947736ba5544e066f15c7cb7e367b23afc2f96178c498507aa9c99fac1767",
+    "bytes": 43154,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_imputation_completion_v2.py",
+    "destination": "real_world/random_imputation.py",
+    "source_sha256": "ed56babcfb93429d300f7f06830754c1691802b5dc3831d146df1e9afea9af05",
+    "release_sha256": "1bd76eb13a81d97ba5c533949f3d8e2c86671a0247dc052bb7aac8bfd891b70b",
+    "bytes": 46682,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_imputation_completion_CM.py",
+    "destination": "real_world/trajectory_recovery.py",
+    "source_sha256": "80a4b9720a85c183bfdbffe90383f91baa82e5006c03dee2cc1ba9727d95fee2",
+    "release_sha256": "b4d241eff01aaf3e1aa04b929b49071396d02014e7014f357c9eb6d6d6b4a822",
+    "bytes": 53242,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_imputation_completion_CM_partial_missing.py",
+    "destination": "real_world/partial_attributes.py",
+    "source_sha256": "5da24287f5cde6ef0719b6da3b7cf140aeb14f250e0b23857d4de24dc251127c",
+    "release_sha256": "d77a5f6874317be19458c6c9d6d8249a41c0cc79ec52f5e112da6638dc4d7d52",
+    "bytes": 57690,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_imputation_completion_CM_inverse_infer.py",
+    "destination": "real_world/inverse_inference.py",
+    "source_sha256": "096d43421f8f6789d352e71089283ff066da6886294a6f64f143a4aaeacc17b7",
+    "release_sha256": "6ea5e0af5f6fb79cfe4c41298a07809c50da824c3b9da5b1337622193e6fee22",
+    "bytes": 54794,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/utils.py",
+    "destination": "real_world/utils.py",
+    "source_sha256": "de7935304d2106e88f5566d4b209e3e4250e3bf80b42e5d9e206d576b2ba04e9",
+    "release_sha256": "9b9b5ab105956fe9f35743a0d2da5d0352505c465cea2b1a0c31c14794281986",
+    "bytes": 13463,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/NHPS_BSD_LICENSE.txt",
+    "destination": "licenses/NHPS_BSD_LICENSE.txt",
+    "source_sha256": "52cd2596e5615a773bb8f8c67796c19c603d8f4577820dbda0439461eebf0753",
+    "release_sha256": "52cd2596e5615a773bb8f8c67796c19c603d8f4577820dbda0439461eebf0753",
+    "bytes": 1520,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/Traceformer_earthquakes_flow_matching_zhe_two_model_v2_fixed_mask_compute_LL.py",
+    "destination": "likelihood/seahorse_likelihood.py",
+    "source_sha256": "0a4cb6b862b7311717dda8f98cae02709ab3c47a0f7d538b7cc74a0af3727561",
+    "release_sha256": "b714225d867d64a3b94fad12dbbb5672641c21036f97d665e8ba23d5f3427dba",
+    "bytes": 55726,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Seahorse/utils.py",
+    "destination": "likelihood/utils.py",
+    "source_sha256": "de7935304d2106e88f5566d4b209e3e4250e3bf80b42e5d9e206d576b2ba04e9",
+    "release_sha256": "9b9b5ab105956fe9f35743a0d2da5d0352505c465cea2b1a0c31c14794281986",
+    "bytes": 13463,
+    "modified": true
+  },
+  {
+    "source": "transformer_events/Citibike/data_train.pkl",
+    "destination": "data/prediction/Citibike/data_train.pkl",
+    "source_sha256": "3864ca8fc1bd2fcd5558bab7a76c6653c43a58355bf67e053e08569015c5bca7",
+    "release_sha256": "3864ca8fc1bd2fcd5558bab7a76c6653c43a58355bf67e053e08569015c5bca7",
+    "bytes": 11184817,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/Citibike/data_train.pkl",
+    "destination": "data/seahorse/Citibike/data_train.pkl",
+    "source_sha256": "2e82e9bea4b13980a81b222fec44a356206deb71f6c1e8d257d3d7e369bfdd63",
+    "release_sha256": "2e82e9bea4b13980a81b222fec44a356206deb71f6c1e8d257d3d7e369bfdd63",
+    "bytes": 9901100,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Citibike/data_val.pkl",
+    "destination": "data/prediction/Citibike/data_val.pkl",
+    "source_sha256": "c6ee9f90a0d4e39692fa2b707b653bf6cb7fdd87f0bed359240e4701e6a47b22",
+    "release_sha256": "c6ee9f90a0d4e39692fa2b707b653bf6cb7fdd87f0bed359240e4701e6a47b22",
+    "bytes": 1627988,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/Citibike/data_val.pkl",
+    "destination": "data/seahorse/Citibike/data_val.pkl",
+    "source_sha256": "2b2c72e7579f1fef5a355f4a8266971c9f07f187134e081dbdc1c831b268f8ca",
+    "release_sha256": "2b2c72e7579f1fef5a355f4a8266971c9f07f187134e081dbdc1c831b268f8ca",
+    "bytes": 1441882,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Citibike/data_test.pkl",
+    "destination": "data/prediction/Citibike/data_test.pkl",
+    "source_sha256": "d5d01a464f5f374cdb44c3296c052453b674080c3da1a3a804a936a6faed3833",
+    "release_sha256": "d5d01a464f5f374cdb44c3296c052453b674080c3da1a3a804a936a6faed3833",
+    "bytes": 1656463,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/Citibike/data_test.pkl",
+    "destination": "data/seahorse/Citibike/data_test.pkl",
+    "source_sha256": "2d68bb95e4866da0f3dd0c2a765f0e3754d0c6c47d1036289589035d6253cfb4",
+    "release_sha256": "2d68bb95e4866da0f3dd0c2a765f0e3754d0c6c47d1036289589035d6253cfb4",
+    "bytes": 1467050,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/COVID19/data_train.pkl",
+    "destination": "data/prediction/COVID19/data_train.pkl",
+    "source_sha256": "ea604309401c59a867a6bb7e29a53356b0aa13ceb2e809593ae8a98270a572a4",
+    "release_sha256": "ea604309401c59a867a6bb7e29a53356b0aa13ceb2e809593ae8a98270a572a4",
+    "bytes": 5026520,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/COVID19/data_train.pkl",
+    "destination": "data/seahorse/COVID19/data_train.pkl",
+    "source_sha256": "54532594b6a09225cebd0e39fa183903c1ddf084ea2b0c8aa47fb6e2eb59ec0c",
+    "release_sha256": "54532594b6a09225cebd0e39fa183903c1ddf084ea2b0c8aa47fb6e2eb59ec0c",
+    "bytes": 4452844,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/COVID19/data_val.pkl",
+    "destination": "data/prediction/COVID19/data_val.pkl",
+    "source_sha256": "17efa64e0d85d6eb201c0ab366d47505d849b678f959746e798afdcbe7ad9e12",
+    "release_sha256": "17efa64e0d85d6eb201c0ab366d47505d849b678f959746e798afdcbe7ad9e12",
+    "bytes": 152153,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/COVID19/data_val.pkl",
+    "destination": "data/seahorse/COVID19/data_val.pkl",
+    "source_sha256": "300964f56cce5fa310245d0bd1f0f82997ee30f5baa517bc601b79d170c6afb1",
+    "release_sha256": "300964f56cce5fa310245d0bd1f0f82997ee30f5baa517bc601b79d170c6afb1",
+    "bytes": 137299,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/COVID19/data_test.pkl",
+    "destination": "data/prediction/COVID19/data_test.pkl",
+    "source_sha256": "54c6b88443a6684770eb8d9dd8901b756cf2f8aa1d7fc37d78b6f682223d0029",
+    "release_sha256": "54c6b88443a6684770eb8d9dd8901b756cf2f8aa1d7fc37d78b6f682223d0029",
+    "bytes": 478003,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/COVID19/data_test.pkl",
+    "destination": "data/seahorse/COVID19/data_test.pkl",
+    "source_sha256": "8544152d2ced4221d36180278a64d729cf184dd0498fd8a05c90b42d98e4e44b",
+    "release_sha256": "8544152d2ced4221d36180278a64d729cf184dd0498fd8a05c90b42d98e4e44b",
+    "bytes": 424984,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/earthquakes/data_train.pkl",
+    "destination": "data/prediction/earthquakes/data_train.pkl",
+    "source_sha256": "7f357eb8c02252b370fb670aad5e464e14ddfad8eec7bde75d72625d0c3166c5",
+    "release_sha256": "7f357eb8c02252b370fb670aad5e464e14ddfad8eec7bde75d72625d0c3166c5",
+    "bytes": 2899838,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/earthquakes/data_train.pkl",
+    "destination": "data/seahorse/earthquakes/data_train.pkl",
+    "source_sha256": "7738894e512f60609c5bcacea49a06a31a80dd3573e95794875327ad9afcf2f8",
+    "release_sha256": "7738894e512f60609c5bcacea49a06a31a80dd3573e95794875327ad9afcf2f8",
+    "bytes": 2240772,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/earthquakes/data_val.pkl",
+    "destination": "data/prediction/earthquakes/data_val.pkl",
+    "source_sha256": "e053e0b746d8c34d1840ffbebf61160e88128e8827799c0899e4b97d2e72ac70",
+    "release_sha256": "e053e0b746d8c34d1840ffbebf61160e88128e8827799c0899e4b97d2e72ac70",
+    "bytes": 144193,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/earthquakes/data_val.pkl",
+    "destination": "data/seahorse/earthquakes/data_val.pkl",
+    "source_sha256": "e38498f0b799f705c2639767e92e76b29fe60c3508e915e1e9655cc629573b60",
+    "release_sha256": "e38498f0b799f705c2639767e92e76b29fe60c3508e915e1e9655cc629573b60",
+    "bytes": 115607,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/earthquakes/data_test.pkl",
+    "destination": "data/prediction/earthquakes/data_test.pkl",
+    "source_sha256": "b8726333a790ce2e5be6a93febf0a4f874dee9e9951eb58d4fac3ed8ff1c2b6e",
+    "release_sha256": "b8726333a790ce2e5be6a93febf0a4f874dee9e9951eb58d4fac3ed8ff1c2b6e",
+    "bytes": 178493,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/earthquakes/data_test.pkl",
+    "destination": "data/seahorse/earthquakes/data_test.pkl",
+    "source_sha256": "e186f09efd76f1d7ac6c2d04885818be131e2b63dba67fa3f05633a61a91786a",
+    "release_sha256": "e186f09efd76f1d7ac6c2d04885818be131e2b63dba67fa3f05633a61a91786a",
+    "bytes": 123233,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/covid19_traceformer_likelihood_test.json",
+    "destination": "reference_results/seahorse/covid19_traceformer_likelihood_test.json",
+    "source_sha256": "ef9b71c3fc8271f100b03644a6cc7ecc087e6aa7ba51e936c4f4ec89fe22a84d",
+    "release_sha256": "ef9b71c3fc8271f100b03644a6cc7ecc087e6aa7ba51e936c4f4ec89fe22a84d",
+    "bytes": 1533,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/citibike_traceformer_likelihood_test.json",
+    "destination": "reference_results/seahorse/citibike_traceformer_likelihood_test.json",
+    "source_sha256": "705b551d9e5f1b1765dcb7f801171fc9448971a5ef5fa24a8ff8f461b64b0985",
+    "release_sha256": "705b551d9e5f1b1765dcb7f801171fc9448971a5ef5fa24a8ff8f461b64b0985",
+    "bytes": 1535,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Seahorse/earthquakes_traceformer_likelihood_test.json",
+    "destination": "reference_results/seahorse/earthquakes_traceformer_likelihood_test.json",
+    "source_sha256": "e1e8f24278f8fff70f3f65ca0d9a40a7f3f4ad3695446587f9c90ed3e1593e04",
+    "release_sha256": "e1e8f24278f8fff70f3f65ca0d9a40a7f3f4ad3695446587f9c90ed3e1593e04",
+    "bytes": 1537,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models.py",
+    "destination": "synthetic/hawkes.py",
+    "source_sha256": "f08a1dfac66a6e7deb7e88e7dccd3ac13d5b3e8ea362ef9a36822072ba311694",
+    "release_sha256": "54d52edb02f15f30e9458e80b95dd206265b05278611d7aac039a35a2cbc1879",
+    "bytes": 60431,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models_SC.py",
+    "destination": "synthetic/self_correcting.py",
+    "source_sha256": "a57ca5c632be4f9fe8c9742276274995a8b563702782a939391bcb64816822e1",
+    "release_sha256": "2444bf0ce051b06fa9c757ca2df3b376982867af4e5e43327282fed269d02de3",
+    "bytes": 67749,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models_HP_l2.py",
+    "destination": "synthetic/hawkes_intensity_error.py",
+    "source_sha256": "a86ce550015e61db5dee426e462348045858730f9efd4c65626ee701d95a5256",
+    "release_sha256": "0e3d6fc4ffae29b36b90898da80b3f36756a4b51b43cac28124e7b09eeb83308",
+    "bytes": 80977,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models_SC_l2.py",
+    "destination": "synthetic/self_correcting_intensity_error.py",
+    "source_sha256": "c4f33d8ace3ae6df4ba82de05f4c305840f5269be06e8b9161db541468fdf6ee",
+    "release_sha256": "aa618c3ec3d3493f54110dc184afe98f0e1915b4b8c57beb7a3081be3fcd68b2",
+    "bytes": 86978,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models_HP_mid_point.py",
+    "destination": "synthetic/hawkes_midpoints.py",
+    "source_sha256": "6477eddd20e56c83dc7c0d6041278f95f37c88fcef14a9e4f317f828c3591150",
+    "release_sha256": "1deeb67938c50b9eb2dc76f23461a5605968d7d4bdaa1e9f32a6c54c0b41191f",
+    "bytes": 21857,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_new_rc_two_models_SC_mid_point.py",
+    "destination": "synthetic/self_correcting_midpoints.py",
+    "source_sha256": "a0e99fcd075065c5eede77753eacc4696a88696a9bbaabde4d9554c58d9c3bf9",
+    "release_sha256": "bb53e75d63732793bca08da36b640ffc274e3a3654b00edacd09f7a327bfdd9f",
+    "bytes": 33955,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/run_simu_lambdaT_dense_baselines.py",
+    "destination": "synthetic/temporal_intensity.py",
+    "source_sha256": "d2f6bfd7b7542eb0a158c7b479f4283091dfaee54ba8951954d96465436a7ddf",
+    "release_sha256": "3548aa7b6ac2529cbf1e2977f4543ff2dd28dd7505d3d2a54837fd85fe760c7e",
+    "bytes": 15760,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/EventsFM6.py",
+    "destination": "synthetic/flow_backbone.py",
+    "source_sha256": "85c50631d0cd23eeb9961ccb0846ddaaabfcecdbe25d68001611314121f9cdd5",
+    "release_sha256": "34af300dca6c977c65dc3fa34a954abc2a1944985fc3bfd37f9c29f538aae469",
+    "bytes": 23159,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/simulate_HP3D.py",
+    "destination": "synthetic/generate_hawkes.py",
+    "source_sha256": "627feea855154ebdd98dbf3a9b1ad4dcaab8c772134a788fa3d363db44604a0f",
+    "release_sha256": "ddd9424f3d90dc1fda140fa42b8fb1e8f366b8094a178d1a88689a4d633684fb",
+    "bytes": 10272,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/simulate_SC3D.py",
+    "destination": "synthetic/generate_self_correcting.py",
+    "source_sha256": "75f4a8ddf8522bb922b40ff622bd4fba1ef5aff2a5aa0f60cf5bedd458cc4d1e",
+    "release_sha256": "20b16f2454cbb5a70a95e4b87bfe91c6d56d80c4b3284f5e72842b550e197637",
+    "bytes": 13275,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/build_hp_test_with_dense_queries.py",
+    "destination": "synthetic/build_hawkes_dense_queries.py",
+    "source_sha256": "089ac95dcecba5152cf776b7fd0eb8c281f7d363fdcfab3f42e51170eeacb921",
+    "release_sha256": "8ab7180c7d6b65d220b08bb507406440966e8cd45ca9d5e9b64a9589d3e4c044",
+    "bytes": 13911,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/build_stscp_test_with_dense_queries.py",
+    "destination": "synthetic/build_self_correcting_dense_queries.py",
+    "source_sha256": "86e8110306db227906ed8431bba0e37c33a7aac95c65f45e397c22bcae9f50f4",
+    "release_sha256": "98e1ffffe1c7ed9faf5493f189d488478ac977ed53deeaf41b763fd4d8fb2a21",
+    "bytes": 971,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/build_hp_test_with_midpoints.py",
+    "destination": "synthetic/build_hawkes_midpoints.py",
+    "source_sha256": "28dbb6a0e79ef416d99f7e887391bae13762a8f495416fa993eb8a1e8294b3c3",
+    "release_sha256": "1542dfac84a5d0ac0d2d487551c52de90470eb1ef41a3019313959bbd74b22c9",
+    "bytes": 12819,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/build_stscp_test_with_midpoints.py",
+    "destination": "synthetic/build_self_correcting_midpoints.py",
+    "source_sha256": "44ae49c2ce44ac9b2098a0d70c2ff7b03970918b32135ac3c18198a965a4de47",
+    "release_sha256": "dcdf07ff52362b73750d6fe788c493dc368ec9cef1cd3e89d2c17f8233ce8bab",
+    "bytes": 12269,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/export_stscp_interval_midpoint_queries.py",
+    "destination": "synthetic/export_self_correcting_queries.py",
+    "source_sha256": "7f59b854621f2484c162de5fc7dae3839fb6bd7ef9eb8161573a4e287805fe69",
+    "release_sha256": "90aeca25dd66d5f36b7b923a9784f6a21119b441b2940b3ed107e68d3732e202",
+    "bytes": 15640,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/utils.py",
+    "destination": "synthetic/utils.py",
+    "source_sha256": "cbb43714648520757f22450bf75bd14aaa2a5bd0851404f676da8a90a2bc02a9",
+    "release_sha256": "f410e0a1b1f6b3f6a687ea7f20ef76a3ed4db3e30573ab65249b1f5c0e22a0e1",
+    "bytes": 14189,
+    "modified": true
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_val.pkl",
+    "destination": "data/synthetic/stpp_out/data_val.pkl",
+    "source_sha256": "317e28c78e0be5972fd823f59b66ef9527c181d76256a56cf47e2ec0afba67e4",
+    "release_sha256": "317e28c78e0be5972fd823f59b66ef9527c181d76256a56cf47e2ec0afba67e4",
+    "bytes": 350070,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_test_with_midpoints_metadata.json",
+    "destination": "data/synthetic/stpp_out/data_test_with_midpoints_metadata.json",
+    "source_sha256": "674dd3962dd58242976ab017a9b35ed1c3d3738a95c531ebc3f96fa9f21e2494",
+    "release_sha256": "674dd3962dd58242976ab017a9b35ed1c3d3738a95c531ebc3f96fa9f21e2494",
+    "bytes": 10586,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_train.pkl",
+    "destination": "data/synthetic/stpp_out/data_train.pkl",
+    "source_sha256": "c40b024bdd477cf9c8adfa2e044e66cd37334992de5298d5ea2dd49140a5a186",
+    "release_sha256": "c40b024bdd477cf9c8adfa2e044e66cd37334992de5298d5ea2dd49140a5a186",
+    "bytes": 17839759,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_test_with_midpoints_is_event.pkl",
+    "destination": "data/synthetic/stpp_out/data_test_with_midpoints_is_event.pkl",
+    "source_sha256": "2722564ec580a970d8a2aa118f820f03004cd9b2fc96502748f755fb74f2db6b",
+    "release_sha256": "2722564ec580a970d8a2aa118f820f03004cd9b2fc96502748f755fb74f2db6b",
+    "bytes": 62070,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_test_with_midpoints.pkl",
+    "destination": "data/synthetic/stpp_out/data_test_with_midpoints.pkl",
+    "source_sha256": "b72ddab291e51db5d73d6c961cb68fac4e1d4f7d812c3776079881250d6d2756",
+    "release_sha256": "b72ddab291e51db5d73d6c961cb68fac4e1d4f7d812c3776079881250d6d2756",
+    "bytes": 1369685,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_test_with_midpoints_bundle.pkl",
+    "destination": "data/synthetic/stpp_out/data_test_with_midpoints_bundle.pkl",
+    "source_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "release_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "bytes": 3400284,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stpp_out/data_test.pkl",
+    "destination": "data/synthetic/stpp_out/data_test.pkl",
+    "source_sha256": "8ad18c95d234abfc55dab723aa4be8256f96232d19ebfb2334182f01f35ddbf4",
+    "release_sha256": "8ad18c95d234abfc55dab723aa4be8256f96232d19ebfb2334182f01f35ddbf4",
+    "bytes": 347718,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_val.pkl",
+    "destination": "data/synthetic/stscp_out/data_val.pkl",
+    "source_sha256": "8a512c46379321a27d6e5147a2e7252a05cbef17cfa468c91979e6ed8060997e",
+    "release_sha256": "8a512c46379321a27d6e5147a2e7252a05cbef17cfa468c91979e6ed8060997e",
+    "bytes": 132195,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_test_with_midpoints_metadata.json",
+    "destination": "data/synthetic/stscp_out/data_test_with_midpoints_metadata.json",
+    "source_sha256": "2ac13e5b5bad84ba7186e2d4fded09729218797705e78867da353d05b9433b8a",
+    "release_sha256": "2ac13e5b5bad84ba7186e2d4fded09729218797705e78867da353d05b9433b8a",
+    "bytes": 9841,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/stscp_interval_midpoint_queries_metadata.json",
+    "destination": "data/synthetic/stscp_out/stscp_interval_midpoint_queries_metadata.json",
+    "source_sha256": "857ad80b0978ea79cbfd713ffd5797d82c63cd3e5e260f62c9fcae3417920805",
+    "release_sha256": "857ad80b0978ea79cbfd713ffd5797d82c63cd3e5e260f62c9fcae3417920805",
+    "bytes": 5607,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_train.pkl",
+    "destination": "data/synthetic/stscp_out/data_train.pkl",
+    "source_sha256": "8838234787133945156f88e229e70ce47749b69aa289a7686b091efaeffaca12",
+    "release_sha256": "8838234787133945156f88e229e70ce47749b69aa289a7686b091efaeffaca12",
+    "bytes": 6591207,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_test_with_midpoints_is_event.pkl",
+    "destination": "data/synthetic/stscp_out/data_test_with_midpoints_is_event.pkl",
+    "source_sha256": "8824f4991b088d7d4fb77e2aaabc029ffafa36cfe668c0a8db9a277fd26dbf0e",
+    "release_sha256": "8824f4991b088d7d4fb77e2aaabc029ffafa36cfe668c0a8db9a277fd26dbf0e",
+    "bytes": 25991,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_test_with_midpoints.pkl",
+    "destination": "data/synthetic/stscp_out/data_test_with_midpoints.pkl",
+    "source_sha256": "5d8038b32c76a5ede649c5c1bc06f1ea75ee1374163bca75f17a55d496107602",
+    "release_sha256": "5d8038b32c76a5ede649c5c1bc06f1ea75ee1374163bca75f17a55d496107602",
+    "bytes": 256164,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/stscp_interval_midpoint_queries.pkl",
+    "destination": "data/synthetic/stscp_out/stscp_interval_midpoint_queries.pkl",
+    "source_sha256": "95453e5e2e5d28bd42eaec36d008d2585a457434f07da73dc4ff8a60916d4cd4",
+    "release_sha256": "95453e5e2e5d28bd42eaec36d008d2585a457434f07da73dc4ff8a60916d4cd4",
+    "bytes": 518568,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_test_with_midpoints_bundle.pkl",
+    "destination": "data/synthetic/stscp_out/data_test_with_midpoints_bundle.pkl",
+    "source_sha256": "562145639856b12803217f44cd9dd9566167359e50dbee20a14c8958d90f4ae6",
+    "release_sha256": "562145639856b12803217f44cd9dd9566167359e50dbee20a14c8958d90f4ae6",
+    "bytes": 1027642,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/stscp_out/data_test.pkl",
+    "destination": "data/synthetic/stscp_out/data_test.pkl",
+    "source_sha256": "45aa6cb09949ec36217313457d86655eeb87b87c59c6ab41e6efef8d6e609dcf",
+    "release_sha256": "45aa6cb09949ec36217313457d86655eeb87b87c59c6ab41e6efef8d6e609dcf",
+    "bytes": 132039,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/test_dataset/stscp_out/data_test.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/test_dataset/stscp_out/data_test.pkl",
+    "source_sha256": "45aa6cb09949ec36217313457d86655eeb87b87c59c6ab41e6efef8d6e609dcf",
+    "release_sha256": "45aa6cb09949ec36217313457d86655eeb87b87c59c6ab41e6efef8d6e609dcf",
+    "bytes": 132039,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/test_dataset/stpp_out/data_test.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/test_dataset/stpp_out/data_test.pkl",
+    "source_sha256": "8ad18c95d234abfc55dab723aa4be8256f96232d19ebfb2334182f01f35ddbf4",
+    "release_sha256": "8ad18c95d234abfc55dab723aa4be8256f96232d19ebfb2334182f01f35ddbf4",
+    "bytes": 347718,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stscp/NSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stscp/NSTPP.pkl",
+    "source_sha256": "991b5bb9d33b2de9983b25715397806930768ff7cdf49511ea1fbe5494ce76e8",
+    "release_sha256": "991b5bb9d33b2de9983b25715397806930768ff7cdf49511ea1fbe5494ce76e8",
+    "bytes": 159212250,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stscp/AUTOSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stscp/AUTOSTPP.pkl",
+    "source_sha256": "e27a00c69a14dd627609887a339842c266eaecc0e0cf037f85796204c93751a7",
+    "release_sha256": "e27a00c69a14dd627609887a339842c266eaecc0e0cf037f85796204c93751a7",
+    "bytes": 30903669,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stscp/DEEPSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stscp/DEEPSTPP.pkl",
+    "source_sha256": "a89b4b14a4885d1927bd936d0e19faf01735729b15f7dc544bd09ba4429099b2",
+    "release_sha256": "a89b4b14a4885d1927bd936d0e19faf01735729b15f7dc544bd09ba4429099b2",
+    "bytes": 31005197,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stpp/NSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stpp/NSTPP.pkl",
+    "source_sha256": "f5d29c4344837bc5228be7ee6dc7bdcaef113dac75098244bcc01a052fb9103d",
+    "release_sha256": "f5d29c4344837bc5228be7ee6dc7bdcaef113dac75098244bcc01a052fb9103d",
+    "bytes": 552853453,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stpp/AUTOSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stpp/AUTOSTPP.pkl",
+    "source_sha256": "8c4925926368aa8a6c1bd08263de58faa3d7f1468edd3db802e0d2d38dbdb8b2",
+    "release_sha256": "8c4925926368aa8a6c1bd08263de58faa3d7f1468edd3db802e0d2d38dbdb8b2",
+    "bytes": 95675468,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Spatial_Temporal_Plotting/baselines/stpp/DEEPSTPP.pkl",
+    "destination": "data/synthetic/Spatial_Temporal_Plotting/baselines/stpp/DEEPSTPP.pkl",
+    "source_sha256": "7e5579ba0b4d1ab0a9c143d53d1ed4e7306a33cb919c195fd06bee0e7c564e62",
+    "release_sha256": "7e5579ba0b4d1ab0a9c143d53d1ed4e7306a33cb919c195fd06bee0e7c564e62",
+    "bytes": 96224225,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Neurips2026_Rebuttal/result/stscp_tmid_s900/NSTPP.pkl",
+    "destination": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/NSTPP.pkl",
+    "source_sha256": "f56abd4ec6dd6a4d55a6fab6239ff4a88ef58b129404a2d5d6e747283f57aeef",
+    "release_sha256": "f56abd4ec6dd6a4d55a6fab6239ff4a88ef58b129404a2d5d6e747283f57aeef",
+    "bytes": 239399225,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Neurips2026_Rebuttal/result/stscp_tmid_s900/AUTOSTPP.pkl",
+    "destination": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/AUTOSTPP.pkl",
+    "source_sha256": "d0def1efaefc7bf5414d7951b58dda096d69faed943f088f5acb22e364832d75",
+    "release_sha256": "d0def1efaefc7bf5414d7951b58dda096d69faed943f088f5acb22e364832d75",
+    "bytes": 61694045,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Neurips2026_Rebuttal/result/stscp_tmid_s900/DeepSTPP.pkl",
+    "destination": "data/synthetic/stscp_midpoint_baselines/result/stscp_tmid_s900/DeepSTPP.pkl",
+    "source_sha256": "4b8cc253b487ecfb37d21fff540e4c4046a447db2abcb5795b96ff3727959591",
+    "release_sha256": "4b8cc253b487ecfb37d21fff540e4c4046a447db2abcb5795b96ff3727959591",
+    "bytes": 61796811,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/Neurips2026_Rebuttal/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+    "destination": "data/synthetic/stscp_midpoint_baselines/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+    "source_sha256": "7d76e279189ec81ef526aaa00d235a91dca318c9f51ca13f81ed6261868ed09c",
+    "release_sha256": "7d76e279189ec81ef526aaa00d235a91dca318c9f51ca13f81ed6261868ed09c",
+    "bytes": 569478,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/NSTPP.pkl",
+    "destination": "data/synthetic/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/NSTPP.pkl",
+    "source_sha256": "4d0e90717834e068e1f52d4e2764e97d6fdda10cb169174ffe918ed39a380ba6",
+    "release_sha256": "4d0e90717834e068e1f52d4e2764e97d6fdda10cb169174ffe918ed39a380ba6",
+    "bytes": 904852438,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/AUTOSTPP.pkl",
+    "destination": "data/synthetic/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/AUTOSTPP.pkl",
+    "source_sha256": "80ca8a7861288e75519d53b9f2c6dd9d4182dc2eddd2214530b2c17749c15c1f",
+    "release_sha256": "80ca8a7861288e75519d53b9f2c6dd9d4182dc2eddd2214530b2c17749c15c1f",
+    "bytes": 191229157,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/DeepSTPP.pkl",
+    "destination": "data/synthetic/HP_stpp_tmid_S900/result/hawkess_process_tmid_s900/DeepSTPP.pkl",
+    "source_sha256": "f83099d91436d05dfeac5acc70aa3edf99acebdd8fc757a9724a28c9f699b052",
+    "release_sha256": "f83099d91436d05dfeac5acc70aa3edf99acebdd8fc757a9724a28c9f699b052",
+    "bytes": 191788558,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stpp_tmid_S900/datasets/hawkess_process/data_test_HP_with_midpoints_bundle.pkl",
+    "destination": "data/synthetic/HP_stpp_tmid_S900/datasets/hawkess_process/data_test_HP_with_midpoints_bundle.pkl",
+    "source_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "release_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "bytes": 3400284,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/hawkess_process_tint/NSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/hawkess_process_tint/NSTPP.pkl",
+    "source_sha256": "1a8bf0c6e58286bfcf34c53840367eb556a6c9e0e4f38fdbf5f07dd944adc1d1",
+    "release_sha256": "1a8bf0c6e58286bfcf34c53840367eb556a6c9e0e4f38fdbf5f07dd944adc1d1",
+    "bytes": 18241096,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/hawkess_process_tint/AUTOSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/hawkess_process_tint/AUTOSTPP.pkl",
+    "source_sha256": "296fd3da2bebf7e89221a2ab0a5fcf570f9bb071ddaa9b0e13ebc9c8e7e979b9",
+    "release_sha256": "296fd3da2bebf7e89221a2ab0a5fcf570f9bb071ddaa9b0e13ebc9c8e7e979b9",
+    "bytes": 1117197,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/hawkess_process_tint/DeepSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/hawkess_process_tint/DeepSTPP.pkl",
+    "source_sha256": "99c1d24eaf0996997b8e3bdc923e3843a715844e28ab5bde5c795c67ebb504bb",
+    "release_sha256": "99c1d24eaf0996997b8e3bdc923e3843a715844e28ab5bde5c795c67ebb504bb",
+    "bytes": 5978424,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/stscp_tint/NSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/stscp_tint/NSTPP.pkl",
+    "source_sha256": "93571ad5cf53f77ba75f223e4d3d6cd0b8106ad4f140b88938547fc35db0dd71",
+    "release_sha256": "93571ad5cf53f77ba75f223e4d3d6cd0b8106ad4f140b88938547fc35db0dd71",
+    "bytes": 4481081,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/stscp_tint/AUTOSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/stscp_tint/AUTOSTPP.pkl",
+    "source_sha256": "8d1b3410dcfda848b1c85d5b54f9f68eb60e9d3b308bf839eadc498d294ad00b",
+    "release_sha256": "8d1b3410dcfda848b1c85d5b54f9f68eb60e9d3b308bf839eadc498d294ad00b",
+    "bytes": 398267,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/result/stscp_tint/DeepSTPP.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/result/stscp_tint/DeepSTPP.pkl",
+    "source_sha256": "04fc5f302b435aec1b25f0c44f6cc1e1c6c9ee22044c318c33e334e992631ecb",
+    "release_sha256": "04fc5f302b435aec1b25f0c44f6cc1e1c6c9ee22044c318c33e334e992631ecb",
+    "bytes": 1927541,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/datasets/hawkess_process/data_test_HP_with_midpoints_bundle.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/datasets/hawkess_process/data_test_HP_with_midpoints_bundle.pkl",
+    "source_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "release_sha256": "4c47b23ef3bdea2ac08de63d126bbfcae3bf61547d23e99962d11877d234f063",
+    "bytes": 3400284,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/HP_stscp_t_int9/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+    "destination": "data/synthetic/HP_stscp_t_int9/datasets/stscp/data_test_with_inter_event_txy_padded_SC.pkl",
+    "source_sha256": "7d76e279189ec81ef526aaa00d235a91dca318c9f51ca13f81ed6261868ed09c",
+    "release_sha256": "7d76e279189ec81ef526aaa00d235a91dca318c9f51ca13f81ed6261868ed09c",
+    "bytes": 569478,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/best_model_time.pth",
+    "destination": "checkpoints/synthetic/best_model_time.pth",
+    "source_sha256": "af39edf367ca4a0e89c7ab9c10e0e096ca891dbaccefc15ab5e2d927675905cb",
+    "release_sha256": "af39edf367ca4a0e89c7ab9c10e0e096ca891dbaccefc15ab5e2d927675905cb",
+    "bytes": 428449,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/best_model_loc.pth",
+    "destination": "checkpoints/synthetic/best_model_loc.pth",
+    "source_sha256": "58fcd86eafcd777bbee8bc71b1439b704fee1351b6a5922c2ad4c648d47969aa",
+    "release_sha256": "58fcd86eafcd777bbee8bc71b1439b704fee1351b6a5922c2ad4c648d47969aa",
+    "bytes": 428296,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/best_model_time_SC.pth",
+    "destination": "checkpoints/synthetic/best_model_time_SC.pth",
+    "source_sha256": "b39335be88e6b955235958d3ce896d3ec71853af9c9d33b5c4c5bcd7000ea9a8",
+    "release_sha256": "b39335be88e6b955235958d3ce896d3ec71853af9c9d33b5c4c5bcd7000ea9a8",
+    "bytes": 399084,
+    "modified": false
+  },
+  {
+    "source": "EventsFM-zhe/best_model_loc_SC.pth",
+    "destination": "checkpoints/synthetic/best_model_loc_SC.pth",
+    "source_sha256": "1279e387f6adf333950b23a7039462ea3d92b551896b50b5e5361dc71a6a6e5d",
+    "release_sha256": "1279e387f6adf333950b23a7039462ea3d92b551896b50b5e5361dc71a6a6e5d",
+    "bytes": 398931,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/2_models_citibike_results",
+    "destination": "reference_results/prediction/2_models_citibike_results",
+    "source_sha256": "d21ad30d33a59c52d8df6b659dc019bb2e40e602328437caf400388c92f0e76f",
+    "release_sha256": "d21ad30d33a59c52d8df6b659dc019bb2e40e602328437caf400388c92f0e76f",
+    "bytes": 367780,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/2_models_covid_results",
+    "destination": "reference_results/prediction/2_models_covid_results",
+    "source_sha256": "47c7230d19d9bcd48f704a58691b253137341e9a0be08841151995033518c8cc",
+    "release_sha256": "47c7230d19d9bcd48f704a58691b253137341e9a0be08841151995033518c8cc",
+    "bytes": 285956,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/2_models_earthquake_results",
+    "destination": "reference_results/prediction/2_models_earthquake_results",
+    "source_sha256": "7bf03374d3e972f3da30d552bcbad5558fc8102da71fcd8700f18d747c199db0",
+    "release_sha256": "7bf03374d3e972f3da30d552bcbad5558fc8102da71fcd8700f18d747c199db0",
+    "bytes": 367668,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/Partial_recovery_5_10_results.txt",
+    "destination": "reference_results/prediction/Partial_recovery_5_10_results.txt",
+    "source_sha256": "c66d6749056b4cf511ddef2b48560cb7b258a1fad58dc36dca41520f13d70f80",
+    "release_sha256": "c66d6749056b4cf511ddef2b48560cb7b258a1fad58dc36dca41520f13d70f80",
+    "bytes": 673513,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/partial_missing_5_10_results.txt",
+    "destination": "reference_results/prediction/partial_missing_5_10_results.txt",
+    "source_sha256": "813cdc4c53aa56c149fbf85662eb620c7847621a1a7f0e444e709f590e684dee",
+    "release_sha256": "813cdc4c53aa56c149fbf85662eb620c7847621a1a7f0e444e709f590e684dee",
+    "bytes": 673124,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/inverse_infer_1_2_results.txt",
+    "destination": "reference_results/prediction/inverse_infer_1_2_results.txt",
+    "source_sha256": "6cd09a7cc49488cda63575be7634e4050c4985a69cae2149191dd6558f3082f6",
+    "release_sha256": "6cd09a7cc49488cda63575be7634e4050c4985a69cae2149191dd6558f3082f6",
+    "bytes": 672711,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/ratio_10%_completion_result.txt",
+    "destination": "reference_results/prediction/ratio_10%_completion_result.txt",
+    "source_sha256": "6f602f4e431ff203e6b97a6970ef9c1f89fa45bde39b9fa2df864992e2dbcd2f",
+    "release_sha256": "6f602f4e431ff203e6b97a6970ef9c1f89fa45bde39b9fa2df864992e2dbcd2f",
+    "bytes": 667591,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/ratio_15%_completion_result.txt",
+    "destination": "reference_results/prediction/ratio_15%_completion_result.txt",
+    "source_sha256": "924efe78a5d11a6905cbc1df7f2a473479cba7bd6e54bbcdaf877c8150385a13",
+    "release_sha256": "924efe78a5d11a6905cbc1df7f2a473479cba7bd6e54bbcdaf877c8150385a13",
+    "bytes": 667610,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/ratio_30%_completion_result.txt",
+    "destination": "reference_results/prediction/ratio_30%_completion_result.txt",
+    "source_sha256": "e180839bb57fc1809d842a18218a06ac11035cba21934ff2c82b2da750711242",
+    "release_sha256": "e180839bb57fc1809d842a18218a06ac11035cba21934ff2c82b2da750711242",
+    "bytes": 667617,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/suffix_5_result_2_loss_model",
+    "destination": "reference_results/prediction/suffix_5_result_2_loss_model",
+    "source_sha256": "0333b037dcc46c89075cdb6c499f654a05c762a0f054792f9e7afe3bc2a2305a",
+    "release_sha256": "0333b037dcc46c89075cdb6c499f654a05c762a0f054792f9e7afe3bc2a2305a",
+    "bytes": 667507,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/suffix_10_result_2_loss_model",
+    "destination": "reference_results/prediction/suffix_10_result_2_loss_model",
+    "source_sha256": "d58fe6982a6e4e1c7bc520c7579c43c8ca66017ddc40039b240a33f733019fa7",
+    "release_sha256": "d58fe6982a6e4e1c7bc520c7579c43c8ca66017ddc40039b240a33f733019fa7",
+    "bytes": 667506,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/suffix_15_result_2_loss_model",
+    "destination": "reference_results/prediction/suffix_15_result_2_loss_model",
+    "source_sha256": "43c9ebf6265d1e4b6c51662116fa2b94ac055f41deba77f04e9df623e7ceb5f5",
+    "release_sha256": "43c9ebf6265d1e4b6c51662116fa2b94ac055f41deba77f04e9df623e7ceb5f5",
+    "bytes": 667502,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/suffix_20_result_2_loss_model",
+    "destination": "reference_results/prediction/suffix_20_result_2_loss_model",
+    "source_sha256": "c94c03a410531936032567c37a03c7422b031caa06631cebfa2c7c5e32430a61",
+    "release_sha256": "c94c03a410531936032567c37a03c7422b031caa06631cebfa2c7c5e32430a61",
+    "bytes": 667507,
+    "modified": false
+  },
+  {
+    "source": "transformer_events/suffix_30_result_2_loss_model",
+    "destination": "reference_results/prediction/suffix_30_result_2_loss_model",
+    "source_sha256": "310552ecb4f4c93cc8ce59d701638e87082318cc788f54a22f40fe8709579080",
+    "release_sha256": "310552ecb4f4c93cc8ce59d701638e87082318cc788f54a22f40fe8709579080",
+    "bytes": 667505,
+    "modified": false
+  }
+]
