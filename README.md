@@ -8,8 +8,6 @@ Real-world experiments train and evaluate ARCH only.
 
 ## Installation
 
-Run commands from `ARCH_release/`. The installation files match the ARCH dependencies installed in the author's **`keyan_1`** Conda environment:
-
 | Component | Version |
 |---|---|
 | Python | 3.10.20 |
@@ -21,32 +19,9 @@ Run commands from `ARCH_release/`. The installation files match the ARCH depende
 | python-dateutil | 2.9.0.post0 |
 | joblib | 1.5.3 |
 
-If `keyan_1` is already installed, activate it:
-
-```bash
-conda activate keyan_1
-python -c "import sys, torch; print(sys.executable); print(sys.version); print(torch.__version__, torch.version.cuda)"
-```
-
-On a new Linux machine, create the environment using [environment.yml](environment.yml):
-
-```bash
-conda env create -f environment.yml
-conda activate keyan_1
-```
-
-Alternatively, install [requirements.txt](requirements.txt) into a Python 3.10.20 environment. These files pin the dependencies used by ARCH to their installed `keyan_1` versions. A fresh environment installation has not been tested.
-
-GPU execution requires a driver compatible with the CUDA 12.6 PyTorch build. The launcher selects CUDA when available; use `--device cpu` or `--device cuda:0` to select a device explicitly. See [validation](docs/VALIDATION.md) for checks performed in this environment.
+GPU execution requires a driver compatible with the CUDA 12.6 PyTorch build. The launcher selects CUDA when available; use `--device cpu` or `--device cuda:0` to select a device explicitly. 
 
 ## Quick start
-
-Run one epoch on a small subset of the earthquake dataset:
-
-```bash
-python run.py real --task next_event --dataset earthquakes \
-  --epochs 1 --seeds 42 --limit-sequences 2 --device cpu
-```
 
 For a full next-event training run:
 
@@ -146,7 +121,5 @@ sha256sum -c SHA256SUMS
 python run.py real --help
 python run.py synthetic --help
 ```
-
-In `keyan_1`, seven one-epoch CPU task checks, four synthetic input checks, and loading all four supplied synthetic checkpoints passed. Full training, GPU execution, and numerical reproduction of the paper tables have not been verified. Historical results are separate from newly generated run outputs.
 
 See [data and checkpoints](docs/DATA.md), [paper-to-code mapping](docs/PAPER_MAP.md), [validation](docs/VALIDATION.md), and [implementation notes](docs/CURATION.md). Source attribution is recorded in `provenance/`; retained third-party notices are in `licenses/`. No repository-wide or dataset license is assigned by this release.
