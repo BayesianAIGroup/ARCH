@@ -140,18 +140,9 @@ provenance/             Source mappings, hashes, and change notes
 tools/                  Release verification utilities
 ```
 
-## Verification and documentation
+## documentation
 
-Run the following commands to verify the release files and inspect the available command-line options:
-
-```bash
-python tools/verify_release.py
-sha256sum -c SHA256SUMS
-python run.py real --help
-python run.py synthetic --help
-```
-
-Additional documentation is available in [data and checkpoints](docs/DATA.md), [paper-to-code mapping](docs/PAPER_MAP.md), [validation](docs/VALIDATION.md), and [implementation notes](docs/CURATION.md).
+Additional documentation is available in [data and checkpoints](docs/DATA.md), [paper-to-code mapping](docs/PAPER_MAP.md), and [implementation notes](docs/CURATION.md).
 
 ## Attribution and licensing
 
