@@ -46,7 +46,7 @@ Intensity L2 evaluation, midpoint and temporal plots, generators, and query buil
 | Likelihood model selection | Validation likelihood selects the restored checkpoint. |
 | Standard deviation/error | Historical aggregation often computes standard error; release summaries distinguish both quantities. |
 | Cross-task weights | Each task creates its own temporal and spatial models. No shared checkpoint across tasks is implied. |
-| Likelihood seeds | Original lists were overwritten and the active entry point selected earthquakes. Explicit CLI seeds avoid guessing the historical Citibike list. |
+| Likelihood runs | The launcher runs three seeds by default, matching the Seahorse protocol; prediction and recovery default to five. |
 | Synthetic comparisons | Saved baseline predictions support plots and evaluation, without supplying full baseline training repositories. |
 
 These are reproduction-protocol differences, not revised experimental conclusions. Short execution checks are not paper-result reproduction.
