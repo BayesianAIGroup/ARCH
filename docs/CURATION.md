@@ -18,7 +18,7 @@ Real-data source filenames begin with `Traceformer_earthquakes_flow_matching_zhe
 | `_imputation_completion_CM_inverse_infer.py` | `real_world/inverse_inference.py` | Inference of the first, second, or first two events |
 | `Seahorse/..._compute_LL.py` | `likelihood/seahorse_likelihood.py` | Validation-selected Seahorse likelihood evaluation |
 
-Intensity L2 evaluation, midpoint and temporal plots, generators, and query builders are retained. The synthetic dependency `EventsFM6.py` is distributed as `flow_backbone.py`. Full source mappings and hashes are in `provenance/source_manifest.json`; release changes are described in `provenance/CHANGES.md`.
+Intensity L2 evaluation, midpoint and temporal plots, generators, and query builders are retained. The synthetic dependency `EventsFM6.py` is distributed as `flow_backbone.py`. Full source mappings and hashes are in `provenance/source_manifest.json`.
 
 ## Release behavior
 
