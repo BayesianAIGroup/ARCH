@@ -15,7 +15,7 @@ Counts match between prediction and Seahorse; contents do not generally match.
 - `data/prediction/{earthquakes,COVID19,Citibike}` comes from `transformer_events`; prediction/recovery tasks read it.
 - `data/seahorse/{earthquakes,COVID19,Citibike}` comes from `transformer_events/Seahorse`; likelihood reads it.
 
-The duplicate `seahorse_original` directory has been removed: all nine split pairs matched `seahorse` exactly, event-by-event, despite different pickle serialization. No experiment loaded the duplicate directory. Comparison counts, hashes, and original source paths are recorded in [the deduplication report](validation/data_cleanup.json). Prediction and Seahorse remain separate because their contents differ.
+The duplicate `seahorse_original` directory has been removed: all nine split pairs matched `seahorse` exactly, event-by-event, despite different pickle serialization. No experiment loaded the duplicate directory. Prediction and Seahorse remain separate because their contents differ.
 
 Format: list of sequences, each event `[absolute_time, longitude, latitude]`. `load_earthquake_st_ori` converts times to gaps, applies epsilon for first/nonpositive gaps, and normalizes locations to [0,1]. The original loader derives spatial bounds and maximum length from **all three splits**. This is preserved, not described as train-only preprocessing. Changing it requires a separately reported experiment.
 
