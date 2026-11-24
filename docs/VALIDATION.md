@@ -29,7 +29,7 @@ All four synthetic checkpoints were loaded into their temporal/spatial models un
 
 ## Not performed
 
-- Full 70/160/200/300-epoch training or five-seed paper sweeps.
+- Full 70/160/200/300-epoch training or multi-run paper sweeps.
 - Complete event-time spatial L2 evaluation or regeneration of every 3D figure.
 - Fresh-environment dependency installation or CUDA execution.
 - Reproduction of excluded ablations or external baseline training.
