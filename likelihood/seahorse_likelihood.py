@@ -1547,7 +1547,3 @@ def test_event_st_two_stage(
 
     return time_error, loc_error, likelihood_result
 
-#seeds_list = [42,39,41,16,46]
-seeds_list = [16,42,39] #COVID
-seeds_list = [46,41,39]
-
