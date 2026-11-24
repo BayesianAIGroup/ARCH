@@ -30,7 +30,8 @@ def arguments():
     real.add_argument("--task", choices=TASKS, required=True)
     real.add_argument("--dataset", choices=("earthquakes", "COVID19", "Citibike"), required=True)
     real.add_argument("--epochs", type=positive, help="Default: 300; likelihood: 200")
-    real.add_argument("--seeds", type=int, nargs="+", default=[42, 39, 41, 16, 46])
+    real.add_argument("--seeds", type=int, nargs="+",
+                      help="Default: five runs; likelihood: three runs, following Seahorse")
     real.add_argument("--suffix-length", type=positive, default=5)
     real.add_argument("--missing-ratio", type=float, default=0.2)
     real.add_argument("--limit-sequences", type=positive, help="Smoke checks only: truncate each split")
@@ -49,6 +50,8 @@ def arguments():
     args = p.parse_args()
     if args.experiment == "real" and not 0 < args.missing_ratio < 1:
         p.error("--missing-ratio must be between 0 and 1")
+    if args.experiment == "real" and args.seeds is None:
+        args.seeds = [42, 39, 41] if args.task == "likelihood" else [42, 39, 41, 16, 46]
     if args.experiment == "real" and len(set(args.seeds)) != len(args.seeds):
         p.error("--seeds must be unique")
     if args.experiment == "synthetic" and args.check_data and args.action not in ("midpoints", "temporal"):
